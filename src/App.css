@@ -37,7 +37,7 @@ html {
   width: max-content;
   height: 100vh;
   object-fit: contain;
-  object-position: bottom;
+  object-position: left;
 }
 .hero-mob {
   width: 100%;
