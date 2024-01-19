@@ -24,7 +24,7 @@ function App() {
           <div className="line"></div>
           <img src={MSLogo} alt="" />
           <h1>Hi, Welcome Back!</h1>
-          <h2>Login to your accoount</h2>
+          <h2>Login to your account</h2>
 
           <div className="input-grp">
             <label htmlFor="">Email Address</label>
