@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import LoginHeroImg from "./assets/img/login-hero.png";
+import LoginHeroImg from "./assets/img/login-hero-2.png";
 import LoginHeroImgMob from "./assets/img/login-hero-mob.png";
 import LogoImg from "./assets/img/logo.png";
 import MSLogo from "./assets/img/mobile-surety-logo.svg";

@@ -31,6 +31,7 @@ html {
   top: 3.5rem;
   left: 4.65rem;
   object-fit: contain;
+  display: none;
 }
 .hero-pc {
   width: max-content;
@@ -176,6 +177,9 @@ html {
 @media screen and (max-width: 1250px) {
   .hero-pc {
     display: none;
+  }
+  .logo {
+    display: block;
   }
   .hero-mob {
     display: block;
