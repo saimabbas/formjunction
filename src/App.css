@@ -24,12 +24,13 @@ html {
   align-items: center;
 }
 .logo {
-  width: max-content;
+  width: auto;
   height: 6rem;
   z-index: 100;
   position: absolute;
   top: 3.5rem;
   left: 3.5rem;
+  object-fit: contain;
 }
 .hero-pc {
   width: max-content;
@@ -62,7 +63,7 @@ html {
   background-color: var(--orange);
 }
 .login-box > img {
-  width: max-content;
+  width: auto;
   height: 3.5rem;
   object-fit: contain;
   margin: 2rem 0 0 0;
@@ -211,6 +212,13 @@ html {
     margin: 2rem 0 0 2rem;
   }
   .login-box > img {
-    height: 3rem;
+    height: 2.5rem;
+  }
+  .login-box h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .input-box input {
+    padding: 0.25rem 0;
   }
 }
